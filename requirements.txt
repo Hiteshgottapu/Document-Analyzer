@@ -1,0 +1,12 @@
+streamlit>=1.22.0
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+numpy>=1.23.5
+scikit-learn>=1.2.0
+requests>=2.28.2
+tiktoken>=0.4.0
+transformers>=4.30.0
+torch>=2.0.0
+sentence-transformers>=2.2.2
+tempfile; sys_platform != "win32"  # stdlib, included for clarity
+os; sys_platform != "win32"        # stdlib, included for clarity
